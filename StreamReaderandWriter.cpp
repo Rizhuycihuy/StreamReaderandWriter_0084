@@ -10,5 +10,15 @@ int main()
     ofstream outfile;
     
     outfile.open("contohfile.txt");
+    cout << ">= menulis file, \'q\' untuk keluar" << endl;
 
+    while (true)
+    {
+        cout << "- ";
+        getline(cin, baris);
+        if (baris == "q") break;
+        outfile << baris << endl;
+    }
+
+    
 }
