@@ -8,4 +8,6 @@ int main()
     string baris, NamaFile;
     cout << "masukkan nama file : ";
     cin >> NamaFile;
+    ofstream outfile;
+    
 }
