@@ -9,4 +9,6 @@ int main()
 
     ofstream outfile;
     
+    outfile.open("contohfile.txt");
+
 }
