@@ -36,4 +36,6 @@ int main()
         }
         infile.close();
     }
+    else cout << "unable to open file";
+    return 0;
 }
